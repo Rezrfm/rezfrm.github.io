@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Navbar */
+.navbar-nav {
+  margin-right: 10rem;
+}
+
+.nav-link {
+  margin-right: 3rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-link a:hover {
+  color: black;
+}
+
+.navbar-link a:focus {
+  text-decoration: underline;
+  color: black;
+}
+
+nav {
+  border-bottom: solid 3px black;
+}
+
+/* Akhir Navbar */
+
+/* Opening Section */
+
+.opening h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  text-align: justify;
+}
+
+.opening .btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background: #1cef1c;
+  border-radius: 50px;
+}
+/* Akhir Opening Section */
+
+/* My Project Section */
+.project {
+  margin-bottom: 5rem;
+}
+
+.project h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.project h5 {
+  font-weight: bold;
+}
+
+.project img {
+  width: 360px;
+  height: 202.5px;
+}
+
+.project p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: justify;
+}
+
+.project a {
+  border: solid 2px black;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+/* Akhir My Project */
+
+/* Footer */
+
+footer {
+  border-top: 3px solid #000;
+}
+
+.ftr {
+  margin-top: 1rem;
+}
+
+.ftr img {
+  width: 50px;
+  margin-right: 1rem;
+  justify-content: center;
+}
+
+.ftr h5 {
+  text-align: start;
+  margin-left: 8px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.ftr p {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+}
+
+.ftr a {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  color: black;
+}
+
+.wmcr {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+/* Akhir Footer */
