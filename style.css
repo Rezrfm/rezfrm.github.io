@@ -2,11 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @media only screen and (max-width: 576px) {
+  /* Opening Section */
   .opening h3 {
     font-size: 20px !important;
     padding-top: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .opening .text-center {
+    text-align: center !important;
   }
 
   .opening img {
@@ -24,6 +29,12 @@
     flex-flow: column-reverse;
   }
 
+  /* Akhir Opening Section */
+
+  /* My Project Section */
+  .prt-btn {
+    margin-left: 1rem;
+  }
   .project h3 {
     margin-top: 5rem !important;
     margin-bottom: 2rem !important;
@@ -40,6 +51,30 @@
     margin: 0rem 1rem;
   }
 
+  .project a {
+    margin-top: 10px;
+  }
+
+  /* Akhir My Project */
+
+  /* My Tools Section */
+  .mytools .col-2 {
+    margin: 0 10px;
+  }
+
+  .mytools h3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .mytools img {
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 2rem !important;
+  }
+
+  /* Akhir My Tools */
+
+  /* Footer Section */
   .ftr h5 {
     font-size: 18px;
   }
@@ -64,6 +99,8 @@
     display: block !important;
     margin-right: 9rem !important;
   }
+
+  /* Akhir Footer */
 }
 
 /* Navbar */
@@ -142,7 +179,27 @@ nav {
   border-radius: 50px;
   margin-right: 10px;
 }
+
+.project .btn img {
+  text-align: left !important;
+}
+
 /* Akhir My Project */
+
+/* My Tools Section */
+.mytools img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 3rem;
+}
+
+.mytools h3 {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/* Akhir My Tools */
 
 /* Footer */
 
