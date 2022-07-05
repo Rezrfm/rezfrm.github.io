@@ -35,6 +35,13 @@
   .prt-btn {
     margin-left: 1rem;
   }
+
+  .project img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;
+    display: block;
+  }
   .project h3 {
     margin-top: 5rem !important;
     margin-bottom: 2rem !important;
@@ -53,6 +60,7 @@
 
   .project a {
     margin-top: 10px;
+    display: block;
   }
 
   /* Akhir My Project */
