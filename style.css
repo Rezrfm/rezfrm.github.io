@@ -92,7 +92,7 @@
     width: 45px !important;
   }
 
-  .twt {
+  .line {
     width: 49px !important;
   }
   .ftr p {
@@ -237,7 +237,7 @@ footer {
   justify-content: center;
 }
 
-.twt {
+.line {
   width: 54px;
   margin-right: 1rem;
   justify-content: center;
