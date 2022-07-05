@@ -104,6 +104,11 @@
 }
 
 /* Navbar */
+nav img {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 .navbar-nav {
   margin-right: 10rem;
 }
