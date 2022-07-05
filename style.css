@@ -1,23 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+@media only screen and (max-width: 576px) {
+  .opening h3 {
+    font-size: 20px !important;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .opening img {
+    width: 360px;
+    height: 240px;
+    margin-top: 2rem;
+  }
+
+  .opening a {
+    margin-left: 1rem;
+    display: block;
+  }
+
+  .opening .row {
+    flex-flow: column-reverse;
+  }
+
+  .project h3 {
+    margin-top: 5rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .project h5 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .project p {
+    font-size: 15px;
+    margin: 0rem 1rem;
+  }
+
+  .ftr h5 {
+    font-size: 18px;
+  }
+
+  .ftr img {
+    width: 45px !important;
+  }
+
+  .ftr p {
+    margin-top: 1rem;
+    font-size: 18px !important;
+  }
+
+  .mailtxt {
+    display: none;
+  }
+
+  .mailbtn {
+    border: solid 3px black;
+    border-radius: 50px;
+    font-size: 16px !important;
+    display: block !important;
+    margin-right: 9rem !important;
+  }
+}
+
 /* Navbar */
 .navbar-nav {
   margin-right: 10rem;
 }
 
-.nav-link {
+.nav-link p {
   margin-right: 3rem;
   font-family: "Plus Jakarta Sans", sans-serif;
   color: black;
   font-weight: bold;
 }
 
-.navbar-link a:hover {
+.navbar-link p:hover {
   color: black;
+  text-decoration: underline;
 }
 
-.navbar-link a:focus {
+.navbar-link p:focus {
   text-decoration: underline;
   color: black;
 }
@@ -41,6 +107,7 @@ nav {
   font-size: 15px;
   background: #1cef1c;
   border-radius: 50px;
+  border: solid 2px black;
 }
 /* Akhir Opening Section */
 
@@ -109,6 +176,10 @@ footer {
   font-family: "Poppins", sans-serif;
   font-size: 19px;
   color: black;
+}
+
+.mailbtn {
+  display: none;
 }
 
 .wmcr {
