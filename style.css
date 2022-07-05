@@ -167,6 +167,7 @@ nav {
 
 .project h5 {
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 .project img {
@@ -216,12 +217,18 @@ footer {
   margin-top: 1rem;
 }
 
-.ftr img {
+.ig,
+.wa {
   width: 50px;
   margin-right: 1rem;
   justify-content: center;
 }
 
+.twt {
+  width: 53px;
+  margin-right: 1rem;
+  justify-content: center;
+}
 .ftr h5 {
   text-align: start;
   margin-left: 8px;
